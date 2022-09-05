@@ -23,7 +23,7 @@ def scrape():
    return redirect('/', code=302)
 
 
-.update_one(query_parameter, {"$set": data}, options)
+   #mars.update_one(query_param, {"$set": data}, options)
 
 
 if __name__ == "__main__":
